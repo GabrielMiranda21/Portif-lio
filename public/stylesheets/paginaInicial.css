@@ -1,0 +1,43 @@
+section.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1{
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+  
+  .nome {
+    margin-bottom: 1em;
+  }
+  .nome p {
+    margin-top: 1%;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ion-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #linkedin {
+    color: #0077b5;
+  }

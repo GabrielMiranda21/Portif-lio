@@ -1,0 +1,38 @@
+::root {
+  --azulMarinhoForte: #012033;
+  --azulMarinho: #010d20;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+body {
+  margin-top: 1em;
+  background-color: #012033;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 20px; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  color: #fff;
+  font-weight: bold;
+}
