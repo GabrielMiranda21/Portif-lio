@@ -23,8 +23,9 @@ section.container{
   .nome {
     margin-bottom: 1em;
   }
-  .nome p {
+  div.nome p {
     margin-top: 1%;
+    color: #fff;
   }
   
   .icons {
@@ -38,6 +39,10 @@ section.container{
     height: 100px;
   }
   
+  #github{
+    color: #fff;
+  }
+
   #linkedin {
     color: #0077b5;
   }
